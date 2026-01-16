@@ -1,4 +1,4 @@
-// src/pages/Login.jsx
+
 import Navbar from "../components/Navbar";
 import "./Login.css";
 import { useState } from "react";
@@ -10,12 +10,12 @@ export default function Login() {
   return (
     
     <div className="loginPage">
-      {/* Navbar must be here (top) */}
+   
       <Navbar />
 
-      {/* Page content under navbar */}
+      
       <div className="loginBody">
-        {/* Left side card */}
+       
         <div className="loginCard">
           <h1 className="loginTitle">Login</h1>
           <p className="loginSub">
@@ -95,7 +95,6 @@ export default function Login() {
           <p className="footerText">© 2026 Sri Lanka Transport Board. All Rights Reserved.</p>
         </div>
 
-        {/* Right side image section */}
         <div className="loginRight">
           <div className="loginRightText">
             <h2>Fast &amp; Easy<br />Season Ticket</h2>
