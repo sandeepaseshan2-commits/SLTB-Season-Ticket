@@ -13,7 +13,7 @@ import busImg from "../assets/bus1.png";
 function Home() {
   return (
     <div className="home">
-      {/* ===== Top Header Bar ===== */}
+      
       <header className="topbar">
         {/* Left side: SLTB Logo + title */}
         <div className="brand">
@@ -25,7 +25,7 @@ function Home() {
           </div>
         </div>
 
-        {/* Right side: Navigation links */}
+       
         <nav className="nav">
           <Link to="/" className="navLink">Home</Link>
           <Link to="/apply" className="navLink">Apply Now</Link>
