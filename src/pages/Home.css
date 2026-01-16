@@ -1,4 +1,4 @@
-/* ===== Page base ===== */
+
 .home {
   min-height: 100vh;
   background: #f3f6fb;
@@ -6,7 +6,7 @@
   font-family: Arial, sans-serif;
 }
 
-/* ===== Top Header Bar ===== */
+
 .topbar {
   background: #0b4aa2;
   color: white;
@@ -24,7 +24,7 @@
   gap: 12px;
 }
 
-/* SLTB logo box */
+
 .logoBox {
   background: #e11d48;
   color: white;
@@ -64,7 +64,7 @@
   text-decoration: underline;
 }
 
-/* Login button */
+
 .navButton {
   background: #ef4444;
   color: white;
@@ -79,21 +79,21 @@
   filter: brightness(0.95);
 }
 
-/* ===== Hero Banner ===== */
+
 .hero {
   width: 100%;
   margin: 0;
   border-radius: 0;
   overflow: hidden;
 
-  /* Background image + overlay */
+ 
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url("../assets/bus1.png");
   background-size: cover;
   background-position: center;
 
-  /* ✅ IMPORTANT: make hero fill the screen */
+  
   min-height: calc(100vh - 60px); /* 60px = topbar height */
   display: flex;
   position: relative;
@@ -107,7 +107,7 @@
   padding: 180px 26px 60px;
 
   display: flex;
-  align-items: flex-start; /* ✅ vertically center */
+  align-items: flex-start; 
   justify-content:  flex-start;
 }
 
@@ -136,20 +136,20 @@
 }
 
 .heroContent p {
-  margin-top: 12px;        /* puts it just under the heading */
+  margin-top: 12px;        
   margin-bottom: 16px;
 
-  font-size: 18px;        /* slightly smaller than heading */
+  font-size: 18px;        
   line-height: 1.4;
 
-  max-width: none;        /* prevents sideways shift */
-  white-space: normal;    /* allows natural wrapping if needed */
+  max-width: none;        
+  white-space: normal;    
 
-  text-align: left;       /* aligns under heading */
+  text-align: left;       
 }
 
 
-/* Hero buttons */
+
 .heroActions {
   display: flex;
   gap: 12px;
@@ -183,13 +183,13 @@
   filter: brightness(0.95);
 }
 
-/* Bus (temporary emoji) */
+
 .heroBus {
   font-size: 90px;
   filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.35));
 }
 
-/* ===== Feature cards ===== */
+
 .features {
   width: 100%;  
   max-width: 1200px;
@@ -207,7 +207,7 @@
   padding: 0 24px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 24px;      /* IMPORTANT */
+  gap: 24px;      
 }
 .featureCard {
   background: #ffffff;
@@ -215,13 +215,13 @@
   padding: 28px 24px;
   text-align: center;
 
-  /* nice shadow like the reference */
+  
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.10);
 
-  /* make all 3 boxes equal height */
+ 
   min-height: 200px;
 
-  /* smooth hover effect */
+  
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -260,12 +260,12 @@
   margin-bottom: 10px;
 }
 .featureImage {
-  width: 70px;          /* image size */
+  width: 70px;         
   height: auto;
-  margin-bottom: 12px; /* space below image */
+  margin-bottom: 12px; 
 }
 
-/* ===== Footer ===== */
+
 .footer {
   text-align: center;
   margin: 26px 0 18px;
@@ -276,15 +276,15 @@
 }
 .heroFooter {
   position: absolute;
-  bottom: 18px;           /* controls vertical position */
+  bottom: 18px;           
   width: 100%;
   text-align: center;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.85); /* soft white */
+  color: rgba(255, 255, 255, 0.85); 
 }
 
 
-/* ===== Mobile responsive ===== */
+
 @media (max-width: 900px) {
   .heroInner {
     flex-direction: column;
@@ -303,14 +303,14 @@
     font-size: 34px;
   }
 }
-/* Fill Application Button (same style as Login) */
+
 
 .fillAppBtn {
-  background-color: #ef4444;     /* same red */
-  color: #ffffff;                /* white text */
+  background-color: #ef4444;     
+  color: #ffffff;                
   
-  width: 10rem;                  /* ✅ width = 10 */
-  height: 3rem;                  /* ✅ height = 5 */
+  width: 10rem;                  
+  height: 3rem;                  
 
   border: none;
   border-radius: 12px;
@@ -319,15 +319,15 @@
   font-weight: 700;
   
   cursor: pointer;
-  display: inline-flex;          /* horizontal */
+  display: inline-flex;          
   align-items: center;
   justify-content: center;
 
   margin-top: 30px;
-  margin-left: 60px;              /* space from text */
+  margin-left: 60px;              
 }
 
-/* Hover effect (same as login) */
+
 .fillAppBtn:hover {
   background-color: #dc2626;
 }
@@ -341,17 +341,17 @@
   color: #ffffff;
 
   padding: 14px 26px;
-  font-size: 20px;          /* ⬆ bigger text */
+  font-size: 20px;          
   font-weight: 700;
 
   border-radius: 14px;
-  border: 3px solid red;    /* 🔴 red circle outline */
+  border: 3px solid red;    
 
   text-decoration: none;
   white-space: nowrap;
 
   margin-top: 30px;
-  margin-left: 60px;      /* ⬅ move LEFT slightly */
+  margin-left: 60px;      
 
   cursor: pointer;
 }
