@@ -44,7 +44,7 @@
   margin-top: 20px;
   padding: 10px 26px;
 
-  background-color: #f44336; /* same red as Login */
+  background-color: #f44336; 
   color: #ffffff;
 
   border: none;
@@ -55,7 +55,7 @@
 
   cursor: pointer;
 
-  display: inline-block; /* 🔴 VERY IMPORTANT */
+  display: inline-block; 
 }
 
 
