@@ -1,0 +1,366 @@
+/* ===== Page base ===== */
+.home {
+  min-height: 100vh;
+  background: #f3f6fb;
+  color: #111827;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== Top Header Bar ===== */
+.topbar {
+  background: #0b4aa2;
+  color: white;
+  width:100%;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* SLTB logo box */
+.logoBox {
+  background: #e11d48;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  padding: 8px 10px;
+  line-height: 1;
+}
+
+.brandTitle {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.brandSub {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+/* Login button */
+.navButton {
+  background: #ef4444;
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.navButton:hover {
+  filter: brightness(0.95);
+}
+
+/* ===== Hero Banner ===== */
+.hero {
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  overflow: hidden;
+
+  /* Background image + overlay */
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("../assets/bus1.png");
+  background-size: cover;
+  background-position: center;
+
+  /* ✅ IMPORTANT: make hero fill the screen */
+  min-height: calc(100vh - 60px); /* 60px = topbar height */
+  display: flex;
+  position: relative;
+}
+
+
+.heroInner {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 180px 26px 60px;
+
+  display: flex;
+  align-items: flex-start; /* ✅ vertically center */
+  justify-content:  flex-start;
+}
+
+
+.heroContent {
+  color: white;
+  max-width: 700px;
+  margin-top: 210px;
+  margin-left: 20px;
+  padding-left: 7%;
+  margin-top: 220px;
+  position: relative;
+  top: 50px;
+  
+}
+
+
+.heroContent h1 {
+  font-size: 42px;
+  margin: 0 0 14px;
+  font-weight: 800;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  margin-left: -40px; 
+
+}
+
+.heroContent p {
+  margin-top: 12px;        /* puts it just under the heading */
+  margin-bottom: 16px;
+
+  font-size: 18px;        /* slightly smaller than heading */
+  line-height: 1.4;
+
+  max-width: none;        /* prevents sideways shift */
+  white-space: normal;    /* allows natural wrapping if needed */
+
+  text-align: left;       /* aligns under heading */
+}
+
+
+/* Hero buttons */
+.heroActions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.btnPrimary {
+  background: #ef4444;
+  color: white;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+.btnPrimary:hover {
+  filter: brightness(0.95);
+}
+
+.btnSecondary {
+  background: #1d4ed8;
+  color: white;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+.btnSecondary:hover {
+  filter: brightness(0.95);
+}
+
+/* Bus (temporary emoji) */
+.heroBus {
+  font-size: 90px;
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.35));
+}
+
+/* ===== Feature cards ===== */
+.features {
+  width: 100%;  
+  max-width: 1200px;
+  margin: 30px auto ;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  
+}
+
+.features {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;      /* IMPORTANT */
+}
+.featureCard {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 28px 24px;
+  text-align: center;
+
+  /* nice shadow like the reference */
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.10);
+
+  /* make all 3 boxes equal height */
+  min-height: 200px;
+
+  /* smooth hover effect */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.14);
+}
+
+
+.featureIcon {
+  width: 64px;        /* icon size */
+  height: auto;
+  font-size: 42px;
+  margin-bottom: 14px;
+}
+
+.featureCard h3 {
+  margin: 6px 0 10px;
+  font-size: 22px;
+  font-weight: 800;
+  color: #111827;
+}
+
+.featureCard p {
+   margin: 0;
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.6;
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.featureImage {
+  width: 70px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.featureImage {
+  width: 70px;          /* image size */
+  height: auto;
+  margin-bottom: 12px; /* space below image */
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  margin: 26px 0 18px;
+  color: #6b7280;
+  font-size: 13px;
+  padding: 15px 0;
+  background: transparent;
+}
+.heroFooter {
+  position: absolute;
+  bottom: 18px;           /* controls vertical position */
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85); /* soft white */
+}
+
+
+/* ===== Mobile responsive ===== */
+@media (max-width: 900px) {
+  .heroInner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .heroBus {
+    font-size: 70px;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .heroContent h1 {
+    font-size: 34px;
+  }
+}
+/* Fill Application Button (same style as Login) */
+
+.fillAppBtn {
+  background-color: #ef4444;     /* same red */
+  color: #ffffff;                /* white text */
+  
+  width: 10rem;                  /* ✅ width = 10 */
+  height: 3rem;                  /* ✅ height = 5 */
+
+  border: none;
+  border-radius: 12px;
+  
+  font-size: 20px;
+  font-weight: 700;
+  
+  cursor: pointer;
+  display: inline-flex;          /* horizontal */
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 30px;
+  margin-left: 60px;              /* space from text */
+}
+
+/* Hover effect (same as login) */
+.fillAppBtn:hover {
+  background-color: #dc2626;
+}
+
+.heroFillBtn {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ef4444;
+  color: #ffffff;
+
+  padding: 14px 26px;
+  font-size: 20px;          /* ⬆ bigger text */
+  font-weight: 700;
+
+  border-radius: 14px;
+  border: 3px solid red;    /* 🔴 red circle outline */
+
+  text-decoration: none;
+  white-space: nowrap;
+
+  margin-top: 30px;
+  margin-left: 60px;      /* ⬅ move LEFT slightly */
+
+  cursor: pointer;
+}
+
+
+.heroFillBtn:hover{
+  filter: brightness(0.95);
+}
+
+
+
+
