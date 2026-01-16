@@ -1,4 +1,4 @@
-// src/pages/FillApplication.jsx
+
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./FillApplication.css";
@@ -29,7 +29,6 @@ export default function FillApplication() {
   function handleNext(e) {
     e.preventDefault();
 
-    // simple required validation
     const requiredFields = [
       "fullName",
       "nic",
@@ -48,7 +47,7 @@ export default function FillApplication() {
       return;
     }
 
-    // go to payment page
+    
     navigate("/payment");
   }
 
