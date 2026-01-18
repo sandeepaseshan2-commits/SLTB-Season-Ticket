@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
 
-  /* light blue background like your photo */
+  
   background: linear-gradient(135deg, #cfe3ff, #eaf2ff);
   padding: 40px 16px;
 }
