@@ -3,8 +3,8 @@ import Navbar from "../components/Navbar";
 import "./Login.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
 export default function Login() {
+
     const [showChoices, setShowChoices] = useState(false);
   const navigate = useNavigate();
   return (
@@ -12,10 +12,9 @@ export default function Login() {
     <div className="loginPage">
    
       <Navbar />
-
       
       <div className="loginBody">
-       
+        
         <div className="loginCard">
           <h1 className="loginTitle">Login</h1>
           <p className="loginSub">
@@ -95,6 +94,7 @@ export default function Login() {
           <p className="footerText">© 2026 Sri Lanka Transport Board. All Rights Reserved.</p>
         </div>
 
+        
         <div className="loginRight">
           <div className="loginRightText">
             <h2>Fast &amp; Easy<br />Season Ticket</h2>
@@ -105,5 +105,7 @@ export default function Login() {
     </div>
   );
 }
+
+
 
 

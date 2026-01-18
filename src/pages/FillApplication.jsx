@@ -29,6 +29,7 @@ export default function FillApplication() {
   function handleNext(e) {
     e.preventDefault();
 
+  
     const requiredFields = [
       "fullName",
       "nic",
@@ -48,6 +49,7 @@ export default function FillApplication() {
     }
 
     
+   
     navigate("/payment");
   }
 

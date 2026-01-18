@@ -91,7 +91,7 @@
   filter: brightness(0.95);
 }
 
-/* mobile */
+
 @media (max-width: 800px){
   .grid2{ grid-template-columns: 1fr; }
   .fillCard{ padding: 24px 18px; }

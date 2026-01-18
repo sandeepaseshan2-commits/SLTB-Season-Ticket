@@ -133,7 +133,7 @@
   opacity: 0.95;
 }
 
-/* Mobile */
+
 @media (max-width: 1000px) {
   .loginBody {
     grid-template-columns: 1fr;

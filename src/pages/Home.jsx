@@ -5,17 +5,13 @@ import fillApplicationIcon from "../assets/fill-application.png";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import busImg from "../assets/bus1.png";
-
-
-
-
-
 function Home() {
   return (
     <div className="home">
       
+     
       <header className="topbar">
-        {/* Left side: SLTB Logo + title */}
+       
         <div className="brand">
           <div className="logoBox">SLTB</div>
 
@@ -56,11 +52,7 @@ function Home() {
   
 </div>
 </div>
-
-
-     
-
-    
+   
   );
 }
 

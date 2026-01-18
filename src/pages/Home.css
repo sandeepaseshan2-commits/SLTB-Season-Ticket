@@ -87,6 +87,7 @@
   overflow: hidden;
 
  
+  
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url("../assets/bus1.png");
@@ -95,6 +96,7 @@
 
   
   min-height: calc(100vh - 60px); 
+  display: flex;
   position: relative;
 }
 
@@ -139,6 +141,8 @@
   margin-bottom: 16px;
 
   font-size: 18px;        
+
+  font-size: 18px;       
   line-height: 1.4;
 
   max-width: none;        
@@ -218,6 +222,9 @@
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.10);
 
  
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.10);
+
+  
   min-height: 200px;
 
   
@@ -231,7 +238,7 @@
 
 
 .featureIcon {
-  width: 64px;        /* icon size */
+  width: 64px;        
   height: auto;
   font-size: 42px;
   margin-bottom: 14px;
@@ -310,6 +317,11 @@
   
   width: 10rem;                  
   height: 3rem;                  
+  background-color: #ef4444;    
+  color: #ffffff;                
+  
+  width: 10rem;                  
+  height: 3rem;                 
 
   border: none;
   border-radius: 12px;
@@ -324,6 +336,7 @@
 
   margin-top: 30px;
   margin-left: 60px;              
+  margin-left: 60px;             
 }
 
 
