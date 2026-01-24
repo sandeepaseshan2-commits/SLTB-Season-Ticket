@@ -63,6 +63,11 @@ Live URL: https://sltb-season-ticket.vercel.app
 - Handled backend logic for application flow
 - Supported frontend and backend integration
 
+ ### Challenges Faced
+- **Merge conflict resolution:** During development, a merge conflict occurred when integrating changes from multiple feature branches into `develop`.
+- **Resolution:** We pulled the latest `develop` branch, resolved conflict markers in the affected files using VS Code, tested the application locally, and committed the fix before merging.
+
+
 ## How to Run the Project Locally
 
 ### Requirements
