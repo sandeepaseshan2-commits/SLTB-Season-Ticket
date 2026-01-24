@@ -43,7 +43,7 @@ Live URL: https://sltb-season-ticket.vercel.app
 
 ## Individual Contributions
 
-### Seshan Sandeepa (DevOps / Release Manager)
+### Seshan Sandeepa (DevOps / Release Manager / Frontend)
 - Created and configured the GitHub repository
 - Managed branch strategy and merge handling
 - Implemented frontend components
@@ -57,7 +57,7 @@ Live URL: https://sltb-season-ticket.vercel.app
 - Performed API testing and backend validation
 - Connected frontend and backend services
 
-### Lishani Samarakoon (Frontend / Application & Payment)
+### Lishani Samarakoon (Backend / Application & Payment)
 - Implemented season ticket application functionality
 - Developed payment method logic (simulation)
 - Handled backend logic for application flow
