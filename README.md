@@ -25,7 +25,7 @@ Live URL: https://sltb-season-ticket.vercel.app
 - Version Control: Git & GitHub
 - CI/CD: GitHub Actions
 - Deployment: Vercel
-- Containerization: Docker (optional)
+  
 
 ## Key Features
 - User registration and login
