@@ -19,6 +19,7 @@ Live URL: https://sltb-season-ticket.vercel.app
 ![Deploy](https://github.com/sandeepaseshan2-commits/SLTB-Season-Ticket/actions/workflows/deploy.yml/badge.svg)
 
 ## Technologies Used
+
 - HTML5, CSS3, JavaScript  
 - React.js with Vite (Frontend)  
 - Node.js and Express.js (Backend)  
@@ -27,7 +28,7 @@ Live URL: https://sltb-season-ticket.vercel.app
 - Git and GitHub  
 - GitHub Actions (CI/CD)  
 - Postman (API Testing)
-  
+
 ## Key Features
 - Season ticket application form  
 - Image upload functionality  
@@ -44,7 +45,7 @@ Live URL: https://sltb-season-ticket.vercel.app
 
 ## Individual Contributions
 
-### Seshan Sandeepa (DevOps / Release Manager)
+### Seshan Sandeepa (DevOps / Release Manager / Frontend)
 - Created and configured the GitHub repository
 - Managed branch strategy and merge handling
 - Implemented frontend components
@@ -58,12 +59,14 @@ Live URL: https://sltb-season-ticket.vercel.app
 - Performed API testing and backend validation
 - Connected frontend and backend services
 
-### S.W.M.L.M. Samarakoon (Frontend / Application & Payment)
+
+### S.W.M.L.M. Samarakoon (Backend / Application & Payment)
 - Implemented season ticket application functionality
 - Developed payment method logic (simulation)
 - Handled backend logic for application flow
 - Supported frontend and backend integration
 
+ develop
 ## Deployment Process
 
 GitHub Actions is used for CI/CD. Each push to the main branch triggers automated checks and deployment steps on the selected hosting platform.
@@ -76,6 +79,12 @@ GitHub Actions is used for CI/CD. Each push to the main branch triggers automate
 - Debugging MongoDB updates and payment logic
 - Build Status
 - CI/CD workflows configured and build passing successfully.
+=======
+ ## Challenges Faced
+- **Merge conflict resolution:** During development, a merge conflict occurred when integrating changes from multiple feature branches into `develop`.
+- **Resolution:** We pulled the latest `develop` branch, resolved conflict markers in the affected files using VS Code, tested the application locally, and committed the fix before merging.
+
+main
 
 ## How to Run the Project Locally
 
